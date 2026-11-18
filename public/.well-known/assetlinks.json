@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.marketplaces.shop",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7F:0E:52:D7:11:86:EC:D9:6B:35:E1:FF:A2:30:19:93:33:6C:5B:3F:8A:2A:43:03:EE:CA:7E:6B:3A"
+      ]
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "Market places",
+  "description": "Market places - অনলাইনে পণ্য প্রদর্শনী, সরাসরি হোয়াটসঅ্যাপ ও ফোনে অর্ডার সুবিধা, ক্যাশ অন ডেলিভারি ও প্রোডাক্ট পোর্টাল।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

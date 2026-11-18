@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111b2e" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+    <linearGradient id="bagOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff851b" />
+      <stop offset="100%" stop-color="#ff4d00" />
+    </linearGradient>
+    <linearGradient id="bagFrost" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1f5f9" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.78" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgNavy)" />
+  <!-- Back handle -->
+  <path d="M188 182 C188 108 260 92 266 154" fill="none" stroke="#cbd5e1" stroke-width="24" stroke-linecap="round" opacity="0.88" />
+  <!-- Isometric Bag Body Orange Base -->
+  <path d="M116 266 L220 330 L394 232 L384 342 C382 356 374 368 360 376 L236 446 C222 454 206 454 192 444 L124 396 C112 388 106 374 108 358 Z" fill="url(#bagOrange)" />
+  <!-- Frosted Upper Translucent Half -->
+  <path d="M132 186 L246 130 L378 164 L394 232 L220 330 L116 266 Z" fill="url(#bagFrost)" />
+  <!-- Inner Orange Glow Visible Through Top -->
+  <path d="M184 212 L288 168 L338 192 L228 258 Z" fill="#ff5e00" opacity="0.82" />
+  <!-- Front handle -->
+  <path d="M244 214 C244 138 320 124 320 198" fill="none" stroke="#f8fafc" stroke-width="24" stroke-linecap="round" opacity="0.95" />
+</svg>
